@@ -6,7 +6,7 @@
 }
 
 :root {
-  --themeColor: 29, 161, 242;
+  --themeColor: 29, 161, 100;
   /* Theme Color in (R,G,B) format */
 }
 
@@ -904,7 +904,8 @@ a {
 .main-footer__socials {
   display: flex;
   align-content: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  justify-content: center;
   max-width: 25rem;
   margin: auto;
   margin-top: 6rem;
@@ -912,6 +913,7 @@ a {
 
 .main-footer__social-link-icon {
   width: 2.5rem;
+  margin-right: 1rem;
 }
 
 .main-footer__bottom {
